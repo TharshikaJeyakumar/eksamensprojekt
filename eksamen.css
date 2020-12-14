@@ -1,0 +1,1428 @@
+/*SÅ DER SMOOTH OVERGANG*/
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  text-decoration: none;
+}
+
+/*Navbar*/
+nav {
+  width: 100%;
+}
+
+.gridcontainernav {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+
+.griditem1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.logo {
+  width: 4rem;
+  height: auto;
+  float: left;
+  align-self: center;
+  justify-self: center;
+  overflow: hidden;
+  display: block;
+}
+
+.headernav {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  align-self: center;
+  justify-self: center;
+  margin: 0;
+  display: none;
+}
+
+.griditem2 {
+  grid-column: 2 / 3;
+  grid-row: 1/2;
+}
+ul {
+  list-style: none;
+  float: right;
+  display: inline-block;
+  margin: 0;
+  padding: 0 16px;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  display: inline-block;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0;
+  margin-right: 8px;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 3px;
+}
+
+.headernav {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5px;
+  font-weight: 900;
+  color: black;
+  margin: 0%;
+  display: none;
+  text-align: left;
+}
+/*Navbar SLUT*/
+
+/*Overskrift til portfolio*/
+main h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  color: black;
+  margin: 0%;
+}
+/*Overskrift til portfolio SLUT*/
+
+/*Grid starer, dog giver det ikke mening med hensyn til nummerering pga. et slettet opslag og ændringen på rækkefølgen*/
+/*Grid 1 - Sagaform*/
+.grid1 {
+  display:grid;
+  grid-template-columns: 1fr; 
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.sagaform{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox1{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+
+/*Grid 1 - Sagaform --> SLUT*/
+
+/*Grid 2 - Blue Twisted*/
+.grid2 {
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.bluetwisted{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox2{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+
+/*Grid 2 - Blue Twisted --> SLUT*/
+
+/*Grid 3 - Pernille*/
+.grid3{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.pernille{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox3{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+
+/*Grid 3 - Pernille --> SLUT*/
+
+/*Grid 5 - Jakob*/
+.grid5{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.jakob{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox5{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+
+/*Grid 5 - Jakob --> SLUT*/
+
+/*Grid 6 - tears*/
+.grid6{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.tears{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox6{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+/*Grid 6 - tears --> SLUT*/
+
+/*Grid 7 - forrest*/
+.grid7{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.forrest{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox7{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+
+/*Grid 7 - forrest --> SLUT*/
+
+/*Grid 8 - Le mini Macaron*/
+.grid8{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.leminimacaron{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox8{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+
+/*Grid 8 - Le mini Macaron --> SLUT*/
+
+/*Grid 9 - A Day In My Life*/
+.grid9{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.adayinmylife{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox9{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+
+/*Grid 9 - A Day In My Life --> SLUT*/
+
+/*Grid 10 - Projekt 1*/
+.grid10{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.projekt1{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox10{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+} 
+
+/*Grid 10 - Projekt 1 --> SLUT*/
+
+/*Grid 11 - Kaiseki sushi*/
+.grid11{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.kaisekisushi{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox11{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+} 
+
+/*Grid 11 - Kaiseki sushi --> SLUT*/
+
+/*Grid 12 - bikeride*/
+.grid12{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.bikeride{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox12{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+} 
+
+/*Grid 12 - bikeride --> SLUT*/
+
+/*Grid 13 - architecture*/
+.grid13{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.architecture{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox13{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+} 
+
+/*Grid 13 - architecture --> SLUT*/
+
+/*Grid 14 - projekt 2*/
+.grid14{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.projekt2{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox14{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+} 
+
+/*Grid 14 - projekt 2 --> SLUT*/
+
+/*Grid 15 - letmilk*/
+.grid15{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.letmilk{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox15{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+} 
+
+/*Grid 15 - letmilk --> SLUT*/
+
+/*Grid 16 - michealkorscardholder*/
+.grid16{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.michealkorscardholder{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox16{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+} 
+
+/*Grid 16 - michealkorscardholder --> SLUT*/
+
+/*Grid 17 - tharshika*/
+.grid17{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.tharshika{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox17{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+} 
+
+/*Grid 17 - tharshika --> SLUT*/
+
+/*Grid 18 - jade roller*/
+.grid18{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.jaderoller{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox18{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+} 
+
+/*Grid 18 - jade roller --> SLUT*/
+
+/*Grid 19 - devil dogs*/
+.grid19{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 2%;
+}
+
+.devildogs{
+  grid-column: 1/2;
+  grid-row: auto;
+  border: solid #D88B57 2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.infobox19{
+  grid-column: 1/2;
+  grid-row: auto;
+  width: 75%;
+  justify-self: center;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  height: fit-content;
+  margin-bottom: 2rem;
+} 
+
+/*Grid 19 - devil dogs --> SLUT*/
+
+/*STYLE TIL Infobox på portfolio*/
+.item h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align:left;
+}
+
+.item h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-align:left;
+}
+
+.item h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.item h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  text-align: right;
+  text-decoration: underline;
+}
+
+/*STYLE TIL Infobox på portfolio --> SLUT*/
+
+/*Kode fra W3schools - https://www.w3schools.com/howto/howto_css_fixed_footer.asp*/
+.footer{
+  left: 0;
+  bottom: 1%;
+  width: 100%;
+  color: black;
+  text-align: left;
+  padding-left: 2%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: lighter;
+  color: black;
+  margin: 0%;
+  display: flex;
+  justify-content:space-between;
+  margin-top: 3rem;
+}
+
+/*Footer logo'er*/
+.instalogo{
+  width: 1rem;
+  height: auto;
+  display: block;
+  float: right;
+  margin-right: 3.5rem;
+}
+
+.linkedinlogo{
+  width: 1rem;
+  height: auto;
+  display: block;
+  float: right;
+  margin-right: 2.5rem;
+}
+
+/*Grid 20 - About Me*/
+.grid20{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 2%;
+  grid-gap: 2%;
+}
+
+.billede1{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border: solid#D88B57  2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.aboutme{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  border: solid #D88B57 2px;
+  background-color: #D88B57;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+.aboutme p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  color: black;
+  line-height: 1.5;
+  object-fit: cover;
+}
+
+.billede2{
+  grid-column: 1/2;
+  grid-row: 3/4;
+  border: solid#D88B57  2px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+/*Grid 20 - About me --> SLUT*/
+
+/*Get in Thouch - Tekst*/
+
+.contacttext{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+
+/*Get in Thouch - Tekst uddybende*/
+
+.contactmetext{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+/*Grid - Contact side*/
+.gridcontact{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 2%;
+  margin-bottom: 2rem;
+}
+
+.kontaktform {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.email{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+  text-align: left;
+  width: 94%;
+  border: solid#D88B57  2px;
+} 
+
+.name{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+  text-align: left;
+  width: 94%;
+  border: solid#D88B57  2px;
+} 
+
+.message{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  width: 94%;
+  border: solid#D88B57  2px;
+} 
+
+.submit{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: block;
+  margin: 0 auto;
+  background-color: #D88B57;
+  border: solid#D88B57  2px;
+} 
+
+.billedemedsmil{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  border: solid#D88B57  2px;
+}
+ 
+
+.logoer {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  padding-bottom: 2.5rem;
+}
+/*Grid - Contact side --> SLUT*/
+
+/*CASEGRIDS*/
+.casegrid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  padding: 2%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+
+.casegrid p {
+  font-size: 12px;
+  text-align: left;
+  font-weight: 300;
+  height: fit-content;
+}
+
+.work0 {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  /*margin-top: 1rem;*/
+}
+
+.work1 {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  /*margin-top: 1rem;*/
+}
+
+.work2 {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.work3 {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.adayinmylifevid {
+  width: 100%;
+  height: auto;
+}
+
+ .casegrid h2 {
+   font-size: 12px;
+   font-weight: 300;
+   text-align: left;
+ }
+
+ .casegrid h3 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+ }
+
+ .process{
+  justify-content: center;
+ }
+
+/*GRID til forside*/
+.forsidetext{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 1%;
+}
+
+.forsideoverskrift{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  justify-self: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+  margin-top: 5rem;
+}
+
+.forsideunderoverskrift{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  justify-self: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  margin-top: -1rem;
+} 
+
+/*Forside billede*/
+.forsidebillede{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-top: -7rem;
+  padding-bottom: 0.4rem;
+}
+
+/*Kode - https://www.youtube.com/watch?v=6vOJoAmbza0 - 9/12/2020*/
+/*Animeret tekst om hjemmesiden på forsiden*/
+.animatedtextbox{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  color: black;
+  animation: type 3s steps(8);
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid black;
+  width:8ch;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+@keyframes type{
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 8ch;
+  }
+}
+
+.textfrontpage{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: black;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-top: 2%;
+  line-height: 1.3rem;
+ }
+
+ /*Explore knap på forsiden*/
+ .buttoncontainer{
+   background: #D88B57;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 12px;
+   display:block;
+   padding: 0.5rem 1rem;
+   color: black;
+   margin: auto;
+   width: 20%;
+   text-align: center;
+ }
+
+/*Ikoner på forside*/
+.forsideicongrid{
+  display:flex;
+  justify-content: space-around;
+  padding-top: 2.1rem;
+}
+
+@media screen and (max-width:324px) {
+  .gridcontainernav {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+  }
+
+  li a {
+    font-size: 8px;
+  }
+
+  .logo {
+    width: 3rem;
+  }
+}
+
+@media screen and (max-width:290px) {
+  li a {
+    font-size: 6px;
+  }
+
+  .logo {
+    width: 2rem;
+  }
+
+  .textfrontpage {
+    font-size: 8px;
+    line-height: 1.3;
+  }
+  
+  .animatedtextbox {
+    font-size: 10px;
+  }
+
+  .aboutme {
+    font-size: 12px;
+  }
+
+  .aboutme p {
+    font-size: 10px;
+  }
+
+  .forsideoverskrift {
+    font-size: 15px;
+  }
+
+  .forsideunderoverskrift {
+    font-size: 13px;
+  }
+}
+
+
+@media screen and (min-width:430px) {
+  .textfrontpage {
+    font-size: 14px;
+  }
+  
+  .animatedtextbox {
+    font-size: 14px;
+  }
+
+  .aboutme p {
+    font-size: 12px;
+  }
+}
+
+  @media screen and (min-width:550px) {
+    .aboutme p {
+      font-size: 14px;
+    }
+
+    .contacttext {
+      font-size: 22px;
+    }
+
+    .contactmetext {
+      font-size: 15px;
+    }
+
+    header nav ul a {
+      font-size: 10px;
+    }
+
+    .adayinmylifevid {
+      width: 100%;
+      height: 750px;
+    }
+
+  }
+
+  @media screen and (min-width:570px) {
+  .textfrontpage {
+    font-size: 18px;
+    line-height: 1.5rem;
+  }
+
+  .animatedtextbox {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width:650px) {
+  .forsideoverskrift{
+    font-size: 27px;
+  }
+
+  .forsideunderoverskrift {
+    font-size: 20px;
+  }
+
+  .aboutme{
+    font-size: 18px;
+  }
+
+  .aboutme p {
+    font-size: 16px;
+  }
+
+  .buttoncontainer{
+    font-size: 15px;
+  }
+
+  header nav ul a {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (min-width:750px) {
+  .aboutme{
+    font-size: 20px;
+  }
+
+
+  .aboutme p {
+    font-size: 18px;
+  }
+
+  header nav ul a {
+    font-size: 12px;
+  }
+
+  .gridcontainernav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+  }
+
+  .griditem1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .headernav {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    margin: 0%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin-top:1.4rem;
+  }
+
+  main h2 {
+    font-size: 18px;
+  }
+
+  header nav ul a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width:940px) {
+  .forsideoverskrift{
+    font-size: 35px;
+  }
+
+  .forsideunderoverskrift {
+    font-size: 25px;
+  }
+
+  .buttoncontainer{
+    font-size: 15px;
+  }
+
+  header nav ul a {
+    font-size: 14px;
+    padding-left: 25px;
+  }
+
+  main h2 {
+    font-size: 22px;
+  }
+
+  .headernav {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+ .item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .grid1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 1rem;
+  }
+
+  .grid3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .grid19 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .grid5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .grid6 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .grid7 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  .grid8 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+
+  .grid9 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+
+  .grid10 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+
+  .grid11 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+
+  .grid12 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+
+  .grid13 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+  }
+
+  .grid14 {
+    grid-column: 1/2;
+    grid-row: 7/8;
+  }
+
+  .grid15 {
+    grid-column: 2/3;
+    grid-row: 7/8;
+  }
+
+  .grid16 {
+    grid-column: 1/2;
+    grid-row: 8/9;
+  }
+
+  .grid17 {
+    grid-column: 2/3;
+    grid-row: 8/9;
+  }
+
+  .grid18 {
+    grid-column: 1/2;
+    grid-row: 9/10;
+  }
+
+  .grid2 {
+    grid-column: 2/3;
+    grid-row: 9/10;
+  }
+
+  /*Grid 20 - About Me*/
+  .grid20{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 2%;
+  }
+
+  .billede1{
+    grid-column: 1/2;
+    grid-row: 1/2; 
+  }
+
+  .aboutme{
+    grid-column: 1/3;
+    grid-row: auto;
+    height: fit-content;
+  }
+
+  .billede2{
+    grid-column: 2/3;
+    grid-row: 1/2;  
+  }
+
+  .aboutme p {
+    font-size: 20px;
+  }
+
+  .adayinmylifevid {
+    width: 100%;
+    height: 750px;
+  }
+
+  /*CASEGRID*/
+  .casegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+ .work0 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+
+  .work1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .work2 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  .work3 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+
+  .process {
+    grid-column: 1/3;
+    grid-row: 5/6;
+  }
+
+  .cssanimationtears {
+    width: 50%;
+    height: auto;
+  }
+
+  .bluetwistedillustration {
+    margin-top: 1rem;
+    width: 50%;
+    height: auto;
+  }
+
+  .bikerideillustration {
+    margin-top: 1rem;
+    width: 50%;
+    height: auto;
+  }
+
+  .letmilkillustration {
+    margin-top: 1rem;
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width:1300px) {
+  .forsideoverskrift{
+    font-size: 50px;
+    margin-top: -0.4rem;
+  }
+
+  .forsideunderoverskrift {
+    font-size: 30px;
+  }
+
+  .forsidebillede{
+    width: 100%;
+    height: auto;
+    margin-top: -4rem;
+  }
+}
